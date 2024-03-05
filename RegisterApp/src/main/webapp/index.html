@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Página inicial - Register App</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<section>
+		<h1>Cadastro na Lista de Notícias</h1>
+		<form action="register" method=post>
+			<label for="fullName">Nome Completo:</label>
+			<input type="text" name="fullName" id="fullName">
+			<label for="email">E-mail:</label>
+			<input type="email" name="email" id="email">
+			<fieldset>
+				<legend>Seus interesses são:</legend>
+				<input type="checkbox" name="options" id="policy" value="Política">
+				<label for="policy">Política</label>
+				<input type="checkbox" name="options" id="sport" value="Esporte">
+				<label for="sport">Esporte</label>
+				<input type="checkbox" name="options" id="culture" value="Cultura">
+				<label for="culture">Cultura</label>
+			</fieldset>
+			<input type="submit" value="Cadastrar">
+		</form>
+	</section>
+</body>
+</html>

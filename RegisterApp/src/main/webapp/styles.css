@@ -1,0 +1,49 @@
+section {
+	border-radius: 10px;
+	background-color: #ddd;
+	width: 50%;
+	margin: 10px auto;
+	padding: 20px	
+}
+
+section h1 {
+	text-align: center;
+	margin: 0;
+}
+
+input {
+	display: block;
+	width: 100%;
+	border-radius: 5px;
+	margin: 8px 0;
+	padding: 12px 20px;
+	outline: none;
+}
+
+input[type=text], input[type=email] {
+	border: 1px solid #ccc;
+}
+
+input[type=checkbox] {
+	display: inline;
+	width: 5%;
+}
+
+input[type=submit], input[type=reset]{
+	background-color: #008800;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+input[type=submit]:hover, input[type=reset]:hover{
+	background-color: #006600;
+}
+
+input[type=text]:focus, input[type=email]:focus{
+	border: 1px solid red;
+}
+
+* {
+	box-sizing: border-box;
+}
